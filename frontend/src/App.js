@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:10000/api/get")
+      .get("https://api.render.com/deploy/srv-chhra8grddl9a76msim0?key=XkNGA9_Gv0Iw/api/get")
       .then((res) => {
         console.log(res.data);
         setPhotos(res.data);
